@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Your own server",
+            "request": "launch",
+            "type": "al",
+            "server": "http://localhost",
+            "serverInstance": "AHRS-DEV",
+            "authentication": "Windows",
+            "port": 7049,
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+        }
+    ]
+}
